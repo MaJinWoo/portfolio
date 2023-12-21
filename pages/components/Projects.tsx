@@ -11,12 +11,12 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="h-screen w-full flex flex-col items-center justify-center">
-      Projects
-      <div className="grid grid-cols-2">
+    <div className="h-screen w-full flex flex-col items-center justify-center gap-32">
+      <h1 className="text-3xl">Projects</h1>
+      <div className="grid grid-cols-2 gap-52">
         {projects.map((element) => {
           return (
-            <div>
+            <div className="flex flex-col items-center justify-center">
               <h1>{element.name}</h1>
             </div>
           );
