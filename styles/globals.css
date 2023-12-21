@@ -10,6 +10,7 @@
   min-width: 400;
   background-color: indianred;
   color: white;
+  margin: 0 auto;
 }
 
 @media (prefers-color-scheme: dark) {

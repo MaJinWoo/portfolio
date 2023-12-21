@@ -1,6 +1,14 @@
 {
   "skills": [
     {
+      "name": "JavaScript",
+      "img": "javascript"
+    },
+    {
+      "name": "TypeScript",
+      "img": "typescript"
+    },
+    {
       "name": "React",
       "img": "react"
     },
@@ -9,13 +17,20 @@
       "img": "next"
     },
     {
-      "name": "TypeScript",
-      "img": "typescript"
+      "name": "Redux-ToolKit",
+      "img": "reduxtoolkit"
+    },
+    {
+      "name": "React-Query",
+      "img": "reactquery"
     }
   ],
   "projects": [
     {
       "name": "Todo List"
+    },
+    {
+      "name": "Gamza"
     },
     {
       "name": "Checkpooint"

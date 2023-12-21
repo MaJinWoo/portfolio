@@ -13,7 +13,7 @@ const Projects = () => {
   return (
     <div className="h-screen w-full flex flex-col items-center justify-center gap-32">
       <h1 className="text-3xl">Projects</h1>
-      <div className="grid grid-cols-2 gap-52">
+      <div className="grid grid-cols-3 gap-52">
         {projects.map((element) => {
           return (
             <div className="flex flex-col items-center justify-center">
